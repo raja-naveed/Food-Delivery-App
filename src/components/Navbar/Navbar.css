@@ -1,0 +1,30 @@
+.logo {
+    height: 50px;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-nav {
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+    }
+    .nav-item {
+      display: table-cell;
+      width: auto;
+    }
+    .nav-link {
+      text-align: center;
+    }
+  }
+  /* style for the navbar */
+.navbar {
+  position: relative;
+  z-index: 10;
+}
+
+/* style for the container of the navbar */
+.container {
+  position: relative;
+}
+  
